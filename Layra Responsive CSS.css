@@ -1,0 +1,961 @@
+/* -------------------------------- Responsive Styling -------------------------------- */
+
+@media (min-width: 1400px) {
+
+    /* -------------------------------- Footer -------------------------------- */
+  
+    #FooterWidgets-2 {
+        padding: 50px 60px;
+        gap: 60px;
+    }
+    
+    #FooterWidgets-1 {
+        padding: 40px 60px;
+    }
+    
+    #FooterWidgets-3 {
+        padding: 25px;
+    }
+    
+    #VividFooterSection .title,
+    #VividFooterSection .description {
+        font-size: 28px;
+    }
+    
+    #FooterWidgets-2 a {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 992px) {
+
+    /* -------------------------------- Image Banners -------------------------------- */
+  
+    .banners-images .widget-content {
+        height: 220px;
+    }
+
+    .banners-images .caption {
+        font-size: 16px;
+        top: 45px;
+        left: 18px;
+    }
+
+    .banners-images .hero-button {
+        bottom: 40px;
+        left: 18px;
+        padding: 9px 16px;
+        font-size: 13px;
+    }
+
+    .banners-images .title {
+        font-size: 11px;
+        margin: 15px;
+    }
+
+    /* -------------------------------- Product Full Page View -------------------------------- */
+
+    .Layra-fullpage-slider .Layra-main-slider {
+        height: 420px;
+    }
+
+    .Layra-post-full-view .product-title {
+        font-size: 30px;
+    }
+
+    .Layra-product-short-description {
+        margin: 10px;
+        padding: 8px 16px;
+        line-height: 20px;
+        font-size: 13px;
+        word-spacing: 6px;
+    }
+
+    .Layra-post-full-view .Layra-product-old-price {
+        font-size: 15px;
+    }
+
+    .Layra-post-full-view .Layra-product-current-price {
+        font-size: 30px;
+    }
+
+    .Layra-variants-container .Layra-product-variants {
+        padding: 8px;
+        gap: 10px;
+    }
+
+    .Layra-variants-container .group-1 span , .Layra-variants-container .group-3 span {
+        width: 30px;
+        height: 30px;
+    }
+
+    .Layra-countdown-value {
+        font-size: 30px;
+    }
+
+    .countdown-label {
+        font-size: 10px;
+    }
+
+    .Layra-post-full-view .action-group-3 .Layra-icon-btn,
+    .Layra-size-guide-btn {
+        padding: 10px;
+        font-size: 14px;
+        margin: 0px;
+    }
+
+
+    /* -------------------------------- Cart Page -------------------------------- */
+
+    #CartPage .cart-item-image {
+        height: 120px;
+        width: 120px;
+    }
+
+    #CartPage .cart-item-title {
+        font-size: 12px;
+        line-height: 12px;
+        position: relative;
+    }
+
+    #CartPage .cart-item-variant {
+        padding: 3px 7px;
+        font-size: 10px;
+    }
+
+    #CartPage .current-price {
+        font-size: 15px;
+    }
+
+    #CartPage .cart-item-details {
+        gap: 2px;
+    }
+
+    #CartPage .cart-summary-container {
+        width: 300px;
+    }
+
+    #CartPage .summary-card h3 {
+        font-size: 20px;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+    }
+
+    #CartPage .summary-row {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    #CartPage .total-row {
+        font-size: 15px;
+        margin: 10px 0px;
+        padding: 15px 0px;
+    }
+
+    #CartPage .checkout-btn {
+        padding: 12px;
+        font-size: 12px;
+    }
+
+    .remove-item-btn {
+        top: 5px;
+        right: 5px;
+        height: 20px;
+        width: 20px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 900px) {
+
+    /* -------------------------------- Categorey -------------------------------- */
+
+    #LinkList5 .swiper-slide a {
+        height: 200px;
+        width: 200px;
+    }
+
+    #LinkList5 .swiper-slide img {
+        height: 185px;
+        width: 185px;
+    }
+}
+
+@media (max-width: 880px) {
+
+
+    /* -------------------------------- Footer -------------------------------- */
+
+    #Header2 img {
+        max-width: 100px;
+        height: 100%;
+    }
+
+    
+    #FooterWidgets-2 .widget-content {
+        font-size: 10px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    /* -------------------------------- Hero Section -------------------------------- */
+
+#LayraHeroSection .container{
+display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#LayraHeaderSlider , #LayraFeacturedPost{
+width: 100%;
+}
+
+#LayraFeacturedPost .product-grid , #LayraHeaderSlider .swiper{
+height: 450px;
+}
+
+    /* -------------------------------- Padding & Margins -------------------------------- */
+
+    #LayraPostList .widget {
+        margin-top: 20px;
+    }
+
+    #LinkList5 .title,
+    #LayraPostList .title,
+    #LayraHotPost .title,
+    #LayraBrandProducts .title,
+    #LayraListSlider .title {
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+
+      #LayraFeacturedPost {
+        padding-top: 0px;
+    }
+
+    /* -------------------------------- Product Full page view -------------------------------- */
+
+    .product-main-content {
+        grid-template-columns: 1fr;
+    }
+
+    /* -------------------------------- Cart Page -------------------------------- */
+
+    #CartPage .cart-page-content {
+        display: block;
+        padding: 10px;
+    }
+
+    .remove-item-btn {
+        top: 10px;
+        right: 10px;
+        height: 30px;
+        width: 30px;
+        font-size: 20px;
+    }
+
+    #CartPage .cart-summary-container {
+        width: 100%;
+    }
+
+    #CartPage .cart-items-container {
+        min-width: 200px;
+    }
+
+    #CartPage .cart-page-header h1 {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+
+    #CartPage .cart-page-header {
+        margin-bottom: 0px;
+    }
+
+    /* -------------------------------- Wishlist Page -------------------------------- */
+
+    #wishlistPage .wishlist-page h1 {
+        font-size: 30px;
+        margin-bottom: 0px;
+    }
+
+    #wishlistPage .wishlist-page-thumb {
+        height: 250px;
+    }
+
+    /* -------------------------------- Checkout Page -------------------------------- */
+
+    #CheckoutPage .flex-container {
+        grid-template-columns: 1fr;
+    }
+
+    /* -------------------------------- Category -------------------------------- */
+
+    #LinkList5 .swiper-slide a {
+        height: 150px;
+        width: 150px;
+    }
+
+    #LinkList5 .swiper-slide img {
+        height: 140px;
+        width: 140px;
+    }
+
+    #LinkList5 .swiper-slide a::after {
+        padding: 6px 8px;
+        font-size: 8px;
+    }
+}
+
+@media (min-width: 641px) {
+  
+  .mobile-menu-select {
+    display: none !important;
+  }
+  
+}
+
+@media (max-width: 640px) {
+  
+  .Layra-bar-menu .widget-content ul {
+    display: none !important;
+  }
+  
+  /* Optional: hide the title if you don't want it */
+  .Layra-bar-menu .title {
+    display: none;
+  }
+.Layra-slider .title{
+font-size: 15px;
+}
+.view-all-btn{
+top: -30px !important;
+font-size: 8px !important;
+}
+
+}
+
+  @media (max-width: 576px) {
+
+    /* -------------------------------- Header -------------------------------- */
+
+    .Layra-alert-message {
+        font-size: 10px;
+        height: 35px;
+    }
+
+    .Layra-alert-message .close-btn {
+        width: 20px;
+        height: 20px;
+        font-size: 15px;
+    }
+
+    .Layra-alert-message .close-btn:hover {
+        font-size: 20px;
+    }
+
+    #HeaderSection {
+        padding: 8px 15px;
+    }
+
+    #LayraMainMenu {
+        max-width: 130px;
+        gap: 8px;
+    }
+
+    .menu-toggle {
+        height: 30px;
+        width: 30px;
+        font-size: 14px;
+    }
+
+    #Header1_headerimg {
+        height: 30px;
+    }
+
+    .gsc-input input {
+        padding: 8px 10px 8px 22px;
+        font-size: 10px;
+        background-size: 10px;
+        background-position: 10px center;
+    }
+
+    .Layra-ecommerce-menus {
+        gap: 0px;
+    }
+
+    .wishlist-icon,
+    .cart-icon {
+        font-size: 15px;
+    }
+
+    .icon-badge {
+        width: 15px;
+        height: 15px;
+        font-size: 8px !important;
+        top: 0;
+        right: 0;
+    }
+
+      #LinkList3 ul li:first-child {
+        padding: 6px;
+    }
+
+    #LinkList3 ul li:first-child a {
+        font-size: 6px;
+    }
+   
+    .Layra-secondary-menu #LinkList2 .widget-content{
+        height: 20px;
+    }
+
+    /* -------------------------------- Back to Top -------------------------------- */
+
+    .back-to-top {
+        width: 50px;
+        height: 50px;
+        font-size: 18px;
+        bottom: 20px;
+        right: 20px;
+    }
+
+    .progress-ring,
+    .progress-ring circle {
+        width: 50px;
+        height: 50px;
+    }
+
+    .progress-circle {
+        r: 20px;
+        stroke-dasharray: 126;
+        stroke-dashoffset: 126;
+    }
+
+    .back-to-top:hover {
+        transform: translateY(-3px) scale(1.03);
+    }
+
+     /* -------------------------------- Checkout Page -------------------------------- */
+
+    #CheckoutPage .progress-bar {
+        padding: 8px;
+        margin-bottom: 20px;
+        gap: 5px;
+    }
+
+    #CheckoutPage .progress-step {
+        font-size: 8px;
+        padding: 5px;
+        height: 16px;
+    }
+
+    #CheckoutPage .progress-step i {
+        font-size: 12px;
+    }
+
+    #CheckoutPage .checkout-form-section {
+        padding: 8px;
+    }
+
+    #CheckoutPage .form-title {
+        font-size: 20px;
+        margin-bottom: 0px;
+    }
+
+    #CheckoutPage .checkout-section-title {
+        font-size: 15px;
+    }
+
+    #CheckoutPage .checkout-form-group input,
+    #CheckoutPage .checkout-form-group select,
+    #CheckoutPage .checkout-form-group textarea {
+        padding: 8px;
+        font-size: 8px;
+    }
+
+    #CheckoutPage .checkout-form-group label {
+        font-size: 8px;
+    }
+
+    #CheckoutPage .checkout-form-grid,
+    .special-checkout-form-group-1,
+    .special-checkout-form-group {
+        gap: 10px;
+    }
+
+    #CheckoutPage .checkout-section-title {
+        font-size: 20px;
+        margin-bottom: 0px;
+        margin-top: 10px;
+    }
+
+    #CheckoutPage .button {
+        padding: 8px 12px;
+        font-size: 10px;
+    }
+
+    #CheckoutPage .checkout-section-title {
+        font-size: 20px;
+    }
+.panel-buttons{
+bottom: 25px;
+}
+
+}
+
+@media (max-width: 480px) {
+  
+    /* -------------------------------- Header -------------------------------- */
+
+    .Layra-alert-message .widget-content {
+        font-size: 8px;
+    }
+
+    .Layra-alert-message {
+        height: 25px;
+        padding: 0px 10px;
+    }
+
+    .Layra-alert-message .close-btn {
+        height: 15px;
+        width: 15px;
+        font-size: 10px;
+        border-radius: 3px;
+    }
+
+.Layra-slider .title{
+    font-size: 10px;
+}
+
+.view-all-btn{
+    padding: 5px 8px !important;
+    font-size: 6px !important;
+    top: -30px !important;
+}
+
+.product-grid-2 .view-all-btn{
+top: -10px !important;
+}
+
+/* -------------------------------- Hero Section -------------------------------- */
+
+#LayraHeaderSlider .swiper{
+height: 400px;
+}
+
+#LayraFeacturedPost .product-grid{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 550px;
+}
+#LayraFeacturedPost .left-column{
+    width: 100%;
+    height: 50%;
+}
+#LayraFeacturedPost .right-column {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+#LayraFeacturedPost .right-column .product-box {
+    height: 100%;
+    width: 50%;
+}
+#LayraHeaderSlider .slider-left h2, #LayraFeacturedPost h3{
+font-size: 12px;
+}
+#LayraHeaderSlider .slider-left h1, #LayraFeacturedPost .label{
+font-size: 6px;
+    padding: 3px 8px;
+}
+#LayraHeaderSlider .slider-left .old-price, #Layra-feactured-post .old-price{
+font-size: 8px;
+}
+#LayraHeaderSlider .slider-left .current-price, #Layra-feactured-post .current-price{
+font-size: 10px;
+}
+#LayraHeaderSlider .slider-left .view-btn, #LayraFeacturedPost .view-product-btn{
+font-size: 8px;
+    padding: 5px 12px;
+}
+    /* -------------------------------- Post List -------------------------------- */
+
+ #LayraPostList .pl-title, #LayraPostList .pl-current-price{
+max-width: 200px;
+}
+#LayraPostList .Layra-post-list-content{
+    padding: 0px 6px;
+    gap: 5px;
+}
+#LayraPostList .pl-title{
+        word-spacing: 1px;
+}
+
+    /* -------------------------------- Grid Slider -------------------------------- */
+    .product-grid-slider .grid-image-wrapper {
+        height: 180px;
+    }
+
+    .product-grid-slider .grid-content {
+        padding: 4px;
+        min-height: 40px;
+    }
+
+    .product-grid-slider .grid-stock{
+        top: 90%;
+    }
+
+    .product-grid-slider .grid-title{
+        font-size: 12px;
+    }
+    
+    .product-grid-slider .grid-label{
+        bottom: 58px;
+    }
+    
+    /* -------------------------------- Overlay Menus -------------------------------- */
+
+    #WishlistProducts,
+    #CartProducts,
+    #LinkList1 {
+        width: 100%;
+    }
+
+    /* -------------------------------- Footer -------------------------------- */
+
+
+    #Header2 img {
+        max-width: 60px;
+        height: 100%;
+    }
+
+    #FooterWidgets-2 .widget-content {
+        font-size: 6px;
+    }
+
+    .social-icon {
+        width: 20px;
+        height: 20px;
+        font-size: 10px;
+    }
+
+    #LayraFooterSection {
+        padding-top: 10px;
+    }
+
+    #FooterWidgets-1,
+    #FooterWidgets-2 {
+        padding: 10px;
+    }
+
+    /* -------------------------------- Product Fullpage View -------------------------------- */
+    .Layra-social-share {
+        flex-direction: column;
+    }
+
+    .Layra-tabs-container {
+        padding: 10px;
+    }
+
+    .product-list-2-post-item {
+        padding: 6px;
+    }
+
+    .pl2-post-img{
+        height: 80px;
+        max-width: 80px;
+    }
+
+    .pl2-post-title a{
+        font-size: 12px;
+    }
+
+    .Layra-post-full-view .product-title {
+        font-size: 20px;
+    }
+
+   .Layra-product-stock.in-stock , .Layra-product-stock.out-of-stock {
+        padding: 3px 8px;
+        font-size: 12px;
+    }
+
+    .total-reviews {
+        font-size: 12px;
+    }
+
+    .product-main-right {
+        padding: 8px;
+    }
+
+    .Layra-product-short-description {
+        line-height: 15px;
+        font-size: 10px;
+    }
+
+    .Layra-post-full-view .Layra-product-sale {
+        padding: 3px 8px;
+        font-size: 8px;
+        letter-spacing: 0px;
+    }
+
+    .Layra-variants-container .group-1 span , .Layra-variants-container .group-3 span {
+        width: 20px;
+        height: 20px;
+    }
+ 
+    .Layra-variants-container .group span{
+        padding: 4px 8px;
+        border-radius: 3px;
+        font-size: 6px;
+    }
+
+    .variant-preview span{
+        font-size: 12px;
+    }
+
+    .Layra-post-full-view .action-group-3 .Layra-icon-btn, .Layra-size-guide-btn{
+        font-size: 8px;
+    }
+    .Layra-post-full-view .action-group-3{
+        padding-left: 10px;
+    }
+
+    .Layra-post-full-view .payment-icons img {
+        width: 35px;
+    }
+
+    .Layra-countdown-timer {
+        padding: 10px;
+        gap: 5px;
+    }
+
+    .product-list-item {
+        min-width: 200px;
+    }
+
+    .pl2-post-img{
+        height: 50px;
+        max-width: 50px;
+    }
+
+    .pl2-post-title a,
+    .pl2-post-title {
+        font-size: 8px;
+        line-height: 8px;
+    }
+
+    .product-main-content {
+        padding: 10px;
+    }
+
+    .product-list-swiper .swiper-button-next,
+    .product-list-swiper .swiper-button-prev {
+        display: none;
+    }
+
+    .tabs-content {
+        padding: 8px;
+    }
+
+    #LinkList5 .title,
+    #LayraPostList .title,
+    #LayraHotPost .title,
+    #LayraBrandProducts .title,
+    #LayraListSlider .title,
+    #Text6 .title {
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width: 320px) {
+
+    /* -------------------------------- Header -------------------------------- */
+
+    .Layra-alert-message .widget-content {
+        font-size: 6px;
+    }
+
+    #HeaderSection {
+        padding: 4px 10px;
+    }
+
+    #LayraMainMenu {
+        max-width: 90px;
+    }
+
+    .menu-toggle {
+        height: 20px;
+        width: 20px;
+        font-size: 10px;
+    }
+
+    #Header1_headerimg {
+        height: 20px;
+        gap: 2px;
+    }
+
+    .gsc-input input {
+        padding: 5px 7px 5px 12px;
+        font-size: 7px;
+        background-size: 6px;
+        background-position: 4px center;
+    }
+
+    .wishlist-icon,
+    .cart-icon {
+        font-size: 10px;
+    }
+
+    .icon-badge {
+        height: 10px;
+        width: 10px;
+        top: 2px;
+        right: 2px;
+        font-size: 5px !important;
+    }
+
+    #LinkList2{
+        width: calc(100% - 40px);
+    }
+
+    #SecondaryMenu {
+        height: 20px;
+    }
+
+    .Layra-secondary-menu #LinkList2 ul {
+        height: 15px;
+    }
+
+    .Layra-secondary-menu #LinkList2 ul li {
+        padding: 0px 4px;
+        margin: 0px 1px;
+    }
+
+    .Layra-secondary-menu #LinkList2 ul li a {
+        font-size: 5px;
+        gap: 2px;
+    }
+
+    #LinkList3 ul li:first-child {
+        padding: 4px;
+    }
+
+    #LinkList3 ul li:first-child a {
+        font-size: 4px;
+        gap: 2px;
+    }
+
+    /* -------------------------------- Banner Images -------------------------------- */
+
+    .banners-images .widget-content {
+        height: 140px;
+        padding: 5px;
+    }
+
+    .banners-images .caption {
+        font-size: 12px;
+        top: 25px;
+        left: 8px;
+        max-width: 75%;
+    }
+
+    .banners-images .hero-button {
+        bottom: 15px;
+        left: 8px;
+        padding: 5px 8px;
+        font-size: 9px;
+    }
+
+    .banners-images .title {
+        font-size: 7px;
+        margin: 6px;
+        padding: 2px 5px;
+        letter-spacing: 0.5px;
+    }
+
+    #banners-images {
+        gap: 10px;
+        padding: 10px;
+    }
+
+    
+    /* -------------------------------- Fullpage View -------------------------------- */
+
+    .Layra-fullpage-slider .Layra-main-slider{
+        height: 300px;
+    }
+
+    /* -------------------------------- Checkout Page -------------------------------- */
+
+    #CheckoutPage .progress-step {
+        font-size: 6px;
+        max-width: 50px;
+        gap: 4px;
+        padding: 3px;
+    }
+
+    #CheckoutPage .progress-step.active {
+        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    #CheckoutPage .checkout-order-summary {
+        min-width: 200px;
+    }
+
+    #CheckoutPage .cart-item {
+        padding: 2px;
+    }
+
+    #CheckoutPage .cart-item img {
+        height: 30px;
+        width: 30px;
+        margin-left: 2px;
+    }
+
+    #CheckoutPage .cart-item-title {
+        font-size: 8px;
+        margin: 0px;
+    }
+
+    #CheckoutPage .cart-item-variant,
+    #CheckoutPage .cart-item-details span,
+    #CheckoutPage .cart-item-quantity::after {
+        font-size: 6px;
+    }
+
+    #CheckoutPage .checkout-order-summary {
+        padding: 8px;
+    }
+
+    #CheckoutPage .checkout-section-title,
+    #CheckoutPage .checkout-section-title {
+        font-size: 12px;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    /* -------------------------------- Category -------------------------------- */
+  
+    #LinkList5 .swiper-slide a {
+        height: 100px;
+        width: 100px;
+    }
+
+    #LinkList5 .swiper-slide img {
+        height: 95px;
+        width: 95px;
+    }
+
+    #LinkList5 .swiper-slide a::after {
+        padding: 4px;
+        font-size: 6px;
+    }
+  
+}
+
+
